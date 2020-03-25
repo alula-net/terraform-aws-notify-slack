@@ -5,3 +5,6 @@ changelog:
 
 release:
 	semtag final -s minor
+
+lint:
+	tflint --deep --module .
